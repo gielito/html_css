@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.corners {
+  
+    height:auto;
+    width:150px; 
+    background:#8BBEA9;
+    margin:20px;
+    padding:30px;
+    -moz-border-radius:15px;    /* Firefox */
+    -webkit-border-radius:15px; /* Safari and Chrome */
+ 
+ }
+
+ 
+ /*	Optional Paragraph Styling */
+
+ .corners p {
+ 
+	text-shadow:1px 1px 1px #FFF;
+	text-align:justify;
+	font-size:16px;
+	margin:0;
+        padding:0;
+    
+ }
+  

@@ -1,0 +1,14 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+								<p class="off-screen">Inne narzędzia</p>
+								<ul class="reset-list" id="additional-tools">
+									<li class="print">
+										<a class="link-components" href="javascript:tools.printPage();" title="Wersja do druku"><img alt="Wersja do druku" src="/wel/template-2013/images/print.gif"><span class="s">&nbsp;</span></a>
+									</li>
+									<li class="font-decrease">
+										<a class="link-components" href="javascript:tools.decreaseFontSize();" title="Zmniejsz tekst"><img alt="Zmniejsz tekst" src="/wel/template-2013/images/font-decrease.gif"><span class="s">&nbsp;</span></a>
+									</li>
+									<li class="font-increase">
+										<a class="link-components" href="javascript:tools.increaseFontSize();" title="Powiększ tekst"><img alt="Powiększ tekst" src="/wel/template-2013/images/font-increase.gif"><span class="s">&nbsp;</span></a>
+									</li>
+								</ul>
+								

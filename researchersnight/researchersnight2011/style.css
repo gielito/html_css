@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body {
+	color: #FFF;
+	font-family: VERDANA;
+	background-color: #FFF;
+}
+
+.question {color: #00284B; font-family: VERDANA; font-size: 12px; font-weight:bold}
+.answer {color: #00284B; font-family: VERDANA; font-size: 11px}
+.bloc {
+	color: #FFFFFF;
+	font-family: VERDANA;
+	font-size: 12px;
+	border-width: 20;
+}
+.contest {color: #FFFFFF; font-family: VERDANA; font-size: 12px}
+
+a {color: #FFFFFF; text-decoration: underline}
+a:link {color: #FFFFFF; text-decoration: underline}
+a:visited {color: #FFFFFF; text-decoration: underline}
+a:hover {color: #FFFFFF; text-decoration: none}
+
+.textbloc a {color: #FFFFFF; text-decoration: underline}
+.textbloc a:link {color: #FFFFFF; text-decoration: none}
+.textbloc a:visited {color: #FFFFFF; text-decoration: underline}
+.textbloc a:hover {color: #FFFFFF; text-decoration: underline}
+.textbloc {color: #FFFFFF; font-family: VERDANA; font-size: 12px}
+
+.bloc2 a {color: #FFFFFF; text-decoration: underline}
+.bloc2 a:link {color: #FFFFFF; text-decoration: underline}
+.bloc2 a:visited {color: #FFFFFF; text-decoration: underline}
+.bloc2 a:hover {color: #FFFFFF; text-decoration: none}
+.textbloc {color: #FFFFFF; font-family: VERDANA; font-size: 13px}

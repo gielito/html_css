@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/* Global Styles */
+
+body {
+	color: #fff;
+	line-height: 1.5em;
+	font-family: Arial;
+	font-size: 14px;
+	background-color:#800000;	/*background: #941212 url(../images/background_gradient.jpg) repeat-x 0px 0px;*/
+}
+.page {
+	max-width:980px;
+	margin: 0px auto;
+	position: relative;
+	background-color: #93aa85;
+}
+
+h1 {
+	color: #800000;
+	margin: 0em 0em .5em 0em;
+	font-size: 2em;
+	font-weight: normal;
+}
+h2 { font-size: 1.7em; margin: 0em 0em 1em 0em; }
+h3 { font-size: 0.9em; margin: 0em; }
+
+p { margin: 0px 0px .60em 0px; }
+a {
+	color:#54674c;
+}
+a:hover { color: #f7cf31; }
+a.cta {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .6em 0 0 0;
+	padding: 0px 12px 0px 0px;
+	background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+
+a.cta:hover { background-position: right -50px; }
+
+
+.promo h3 { font-size: 0.8em; margin: 0; line-height: 0.9em; }
+.promo p { line-height: 0.9em; font-size: .65em; margin-bottom: .4em; }
+
+.promo { background-repeat: no-repeat; }
+
+/*start infofiches producties*/
+.promo.kikkerkusjetot8j { background-image: url(../images/thumb_kikkerkusjetot8j.jpg);}
+.promo.mevrouwdrupjes{ background-image: url(../images/thumb_mevrouwdrupjes.jpg); }
+.promo.droomlakeitjesuikerpop{ background-image: url(../images/thumb_droomlakeitjesuikerpo.jpg)}
+.promo.sinterklaasspeculaas { background-image: url(../images/thumb_sinterklaasspeculaas.jpg); }
+.promo.interwintersint { background-image: url(../images/thumb_interwintersint.jpg); }
+.promo.defanfarevansinterklaas { background-image: url(../images/thumb_defanfarevansinterklaas.jpg); }
+.promo.deverteltent{ background-image: url(../images/thumb_deverteltent.jpg); }
+.promo.mijnheerneusvertelt{ background-image: url(../images/thumb_mijnheerneusvertelt.jpg); }
+.promo.voorleesvertelling{ background-image: url(../images/thumb_voorleesvertelling.jpg); }
+
+
+/*end infofiches producties*/
+
+
+nav a {
+	color: #54674c;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:inline-block;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+
+.active {
+	color: #f7cf31;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:inline-block;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+
+.clear-fix { clear: both; line-height: 1px; }
+
+
+
+
+
+img.full
+{
+width:100%
+}
+
+
+#footerbox{
+	background-color:#800000;
+}
+
+.contact {
+	text-align:center;
+	color:#FFCC00;
+	font-size:1em;
+	background-color:#611e25;
+}
+
+
+.contact a{
+	color:#FFCC00;
+}
+
+
+
+.footer_nieuwsbrief {
+	background-image:url(../images/letterbox.jpg);
+	background-repeat:no-repeat;
+	height:70px;
+	margin-left:20,4081632653061%;
+	color:#CC0000;
+	text-align:left;
+	font-size:0,8em;
+	text-align: center;
+	padding-left: 100px;
+}
+
+
+
+
+
+.bold{
+font-style: bold;
+}
+
+
+
+
+
+.title_category{
+    font-size: 1.4em; color: #fff; font-weight: bold; margin-bottom:1em;
+}
+
+
+
+
+
+
+#infofiche_wrapper{
+
+	max-width:980px;
+	margin: 0px auto;
+	position: relative;
+	background-color: #800000;
+    padding:2em;
+}
+
+
+.title{
+	font-size: 1.5em; color: #f7cf31; font-weight: bold; line-height:2em;
+}
+
+
+.subtitle{
+    font-size: 1.2em; color: #fff; font-weight: bold;
+}
+
+.txt_infofiche
+{font-weight: normal;
+}
+
+.prices_wrapper{
+background-color:#330000; padding:1em;
+}
+
+
+.prices_title{
+font-size: 1.2em; color: #fff; font-weight: bold;
+}
+
+
+.prices_subtitle{
+color: #f7cf31; font-weight: bold;
+}
+
+.prices_footer{
+font-size: 0.9em; font-weight: normal;
+}
+
+/* brol te bekijken
+
+
+img,
+embed,
+object,
+video{
+width:100%
+}
+
+
+.footer_nieuwsbrief {
+background-color:#fff;
+width:100%;
+height:70px;
+}
+
+.footer_nieuwsbrief_img {
+float:left;
+width:20,4081632653061%;
+}
+
+.footer_nieuwsbrief_txt{
+	float:right;
+	color:#CC0000;
+	text-align:left;
+	background-color:#FFFFFF;
+	font-size:0,8em;
+	width:70%;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+*/

@@ -1,0 +1,13 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<p class="off-screen">Outils du site</p>
+				<ul class="reset-list" id="services">
+					<!--<li><a class="first" href="/atoz_fr.htm">Index (A-Z)</a></li>
+					<li><a href="/sitemap/index_fr.htm">Plan du site</a></li>
+					<li><a href="/abouteuropa/index_fr.htm">À propos de ce site</a></li>
+					<li><a href="/abouteuropa/faq/index_fr.htm">FAQ</a></li>
+					<li><a href="/geninfo/whatsnew_fr.htm">Quoi de neuf?</a></li>-->
+					<li><a accesskey="2" href="/geninfo/legal_notices_fr.htm">Avis juridique</a></li>
+					<li><a accesskey="3" href="mailto:REA-COMMUNICATION@ec.europa.eu">Contact</a></li>
+					<li><a accesskey="4" href="/geninfo/query/search_fr.html">Recherche</a></li>
+				</ul>
+				
