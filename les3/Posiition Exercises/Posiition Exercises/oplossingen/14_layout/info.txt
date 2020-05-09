@@ -1,0 +1,32 @@
+Kleuren
+--
+
+lichtbruin: #8C6239
+
+tekstkleur: #252525
+
+blokje menu: #464646
+
+
+
+Font
+--
+
+lettertype: Verdana
+
+Tekstgrootte titel: 18px
+
+Tekstgrootte tekst: 11px
+
+Tekstgrootte menu: 14px
+
+
+
+Afmeetingen
+--
+
+Breedte afbeeldingen: 830px
+
+Marge: 30px
+
+Breedte menu: 175px

@@ -1,0 +1,38 @@
+body{
+	background: none;
+}                    
+
+#header{
+	display: none;
+}                 
+
+#navigation{
+	display: none;
+}                
+
+#footer{
+	display: none;
+}  
+
+#content{
+	font-size: 10pt;
+}
+
+#content div.leftimg img{
+	float: left;  
+	padding: 1px;  
+	margin: 0 10px 10px 0;
+	border: 1px solid #252525;
+} 
+
+#content div.rightimg img{
+	float: right;  
+	padding: 1px;  
+	margin: 0 0 10px 10px;
+	border: 1px solid #252525;
+}
+
+#content h2{
+	clear: both;
+	font-size: 12pt;
+}

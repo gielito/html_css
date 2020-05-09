@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(214, 207, 208, 0.877);
+}
+
+.wrapper {
+    background-color: yellow;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: rgb(226, 14, 14);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    text-align: right;
+}
+
+main {
+    background-color: green;
+    width: 75%;
+    padding: 1rem;
+}
+
+aside {
+    background-color: red;
+    width: 25%;
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.twocolums {
+    width: 50%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: hotpink;
+}

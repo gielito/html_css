@@ -1,0 +1,13 @@
+/*Start*/
+
+#download_png{
+	width: 128px;
+	height: 128px;
+	background-image: url('../images/download.png');
+}
+
+#download_jpg{
+	width: 128px;
+	height: 128px;
+	background-image: url('../images/download.jpg');
+}

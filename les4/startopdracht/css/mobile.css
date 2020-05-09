@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+  /* begin van media query */
+  /* * {
+    display: none;
+  } */
+  .two-columns,
+  .three-columns {
+    display: block;
+  }
+
+  /* einde van media query */
+}

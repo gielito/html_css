@@ -1,0 +1,47 @@
+    /* overall */
+    /* overall */
+    
+    * {
+        margin: 0;
+        /* m+ tab*/
+        padding: 0;
+        /*p + tab*/
+        box-sizing: border-box;
+        /*bxz + tab*/
+    }
+    
+    .container {
+        width: 90vw;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    
+    .container>*:nth-child(odd) {
+        background-color: #FBC43E;
+        color: #fff;
+    }
+    
+    .container>*:nth-child(even) {
+        background-color: #fff;
+        color: #FBC43E;
+        ;
+    }
+    
+    .container>* {
+        padding: 3rem 2rem;
+    }
+    
+    .border {
+        padding-bottom: 160px;
+        /*bgi*/
+        background-image: url("../img/border.png");
+        background-repeat: repeat-x;
+        background-position: left bottom;
+    }
+    
+    .dots {
+        padding-right: 230px;
+        background-image: url("../img/dot2.png");
+        background-repeat: repeat-x;
+        background-position: left bottom;
+    }

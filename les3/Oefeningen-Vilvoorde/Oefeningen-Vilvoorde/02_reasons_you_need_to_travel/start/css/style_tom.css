@@ -1,0 +1,17 @@
+/* overall */
+
+* {
+    margin: 0;
+    /* m+ tab*/
+    padding: 0;
+    /*p + tab*/
+    box-sizing: border-box;
+    /*bxz + tab*/
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-left: ;
+}

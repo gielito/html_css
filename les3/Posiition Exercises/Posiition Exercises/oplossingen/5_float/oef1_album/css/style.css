@@ -1,0 +1,23 @@
+h1{
+	font-family: Parisienne;
+	margin-left: 20px;
+	border-bottom: 1px solid black;
+	width: 664px;
+}
+
+h1 a{
+	line-height: 0.8;
+	text-decoration: none;
+	color: #333;
+}
+
+img{
+    border: 1px solid #000;
+    padding: 10px 10px 40px 10px;
+    margin: 10px 20px;
+    float: left;
+}
+
+.next-row{
+    clear: left;
+}

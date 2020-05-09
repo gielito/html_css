@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+.block{
+	background-image: url('../images/block.jpg');
+	width: 200px;
+	height: 60px;
+}
+
+#tower{
+	margin: 20px 50px;
+}
+
+#block1{
+	position: relative;
+	left: 10px;
+}
+
+#block2{
+	position: relative;
+	right: 10px;
+}
+
+#block3{
+	position: relative;
+	left: 20px;
+}
+
+#block4{
+	position: relative;
+	right: 30px;
+	
+	rotation: 10;
+}
+
+#block5{
+	position: relative;
+	left: 10px;
+}
+
+#block6{
+	position: relative;
+	right: 10px;
+}
+
+#text{
+	width: 196px;
+	border: 2px solid black;
+	margin: 0px;
+}

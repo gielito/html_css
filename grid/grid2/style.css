@@ -1,0 +1,33 @@
+.grid {
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+header {
+    background-color: aqua;
+    padding: 1rem;
+    grid-area: header;
+}
+
+main {
+    background-color: rgb(160, 192, 16);
+    padding: 1rem;
+    grid-area: main;
+}
+
+aside {
+    background-color: rgb(236, 134, 16);
+    padding: 1rem;
+    grid-area: aside;
+}
+
+footer {
+    background-color: rgb(125, 21, 173);
+    padding: 1rem;
+    grid-area: footer;
+}

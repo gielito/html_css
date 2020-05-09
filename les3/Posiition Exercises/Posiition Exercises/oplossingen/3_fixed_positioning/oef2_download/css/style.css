@@ -1,0 +1,18 @@
+#download_png{
+	background-image: url('../images/download.png');
+	width: 128px;
+	height: 128px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -64px 0px 0px -64px;
+}
+
+#download_jpg{
+	background-image: url('../images/download.jpg');
+	width: 128px;
+	height: 128px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}

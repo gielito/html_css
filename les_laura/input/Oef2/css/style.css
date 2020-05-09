@@ -1,0 +1,99 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        header {
+            background-color: #C90734;
+            height: 25%;
+        }
+        
+        .logo {
+            width: 10%
+        }
+        
+        nav {
+            width: 80%;
+            margin: 0 auto;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        
+        ul {
+            width: 70%;
+            margin: 10px;
+        }
+        
+        li {
+            text-align: right;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, .8);
+        }
+        
+        article {
+            width: 70%;
+            margin: 0 auto;
+            height: 400px;
+            background-image: url(../img/aarbeitjes.jpg);
+        }
+        
+        .tekstaardbei {
+            margin: 0 auto;
+            width: 145px;
+            flex-direction: column;
+            color: white;
+            font-size: 1.25rem;
+        }
+        
+        .tekstaardbei1 {
+            margin: 0 auto;
+            width: 70px;
+            flex-direction: column;
+            color: white;
+            font-size: 1.25rem;
+        }
+        
+        .underscore {
+            border-bottom: 1px solid white;
+            color: white;
+        }
+        
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+            width: 100%;
+            color: white;
+        }
+        
+        .btn {
+            text-decoration: none;
+            margin-top: 100px;
+            border: 1px solid white;
+            text-align: center;
+            font-weight: 900;
+            border-radius: 40px;
+        }
+        
+        .btn:hover {
+            background-color: white;
+            color: red
+        }
+        
+        .flex {
+            display: flex;
+        }
+        
+        @media screen and (max-width: 800px) {
+            header {
+                display: block;
+            }
+        }

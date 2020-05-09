@@ -1,0 +1,36 @@
+    body {
+        background-color: pink;
+    }
+    
+    ul {
+        background-color: rgb(194, 194, 137);
+        border: 1px solid red;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        /* height: 50vw; */
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        /* align-items: center;
+        */
+        /*flex-direction: column;*/
+        /*justify-content: space-around;*/
+    }
+    
+    li {
+        background-color: rgb(128, 128, 115);
+        margin: 10px;
+        padding: 20px;
+        color: white;
+        font-size: 2 rem;
+        list-style: none;
+    }
+    
+    .grow {
+        background-color: violet;
+        flex-grow: 1;
+    }

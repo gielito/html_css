@@ -1,0 +1,4 @@
+#6C665F (achtergrond)
+#F7E0C2 (titels)
+#CDBBA4 (teksten)
+#958694 (ornamenten)

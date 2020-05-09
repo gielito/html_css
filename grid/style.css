@@ -1,0 +1,32 @@
+                body {
+                    background-color: gray;
+                    display: grid;
+                    grid-template-columns: 200px 500px 1fr;
+                    grid-template-rows: 200px 300px 1fr;
+                }
+                
+                header,
+                main,
+                aside,
+                footer {
+                    text-align: center;
+                    padding: 2rem;
+                }
+                
+                header {
+                    background-color: aqua;
+                    /*grid-column: 1 / -2;*/
+                    grid-column: span 3;
+                }
+                
+                main {
+                    background-color: rgb(160, 192, 16);
+                }
+                
+                aside {
+                    background-color: rgb(236, 134, 16);
+                }
+                
+                footer {
+                    background-color: rgb(125, 21, 173);
+                }

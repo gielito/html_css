@@ -1,0 +1,32 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/lb.jpg');
+    left: 0;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/lt.jpg');
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/rb.jpg');
+}
+
+#box4 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/rt.jpg');
+    top: 0;
+    bottom: 0;
+}
+
+#box5 {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/center.jpg');
+}

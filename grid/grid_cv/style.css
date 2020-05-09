@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.grid {
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aside main";
+}
+
+main {
+    background-color: rgb(160, 192, 16);
+    grid-area: main;
+    color: rgb(107, 107, 112);
+}
+
+aside {
+    background-color: rgb(236, 134, 16);
+    grid-area: aside;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box {
+    padding: 10px;
+    background-color: rgb(170, 170, 161);
+    flex: 0 1 20%;
+    margin-bottom: 0.2em;
+}
+
+.box1-content {
+    padding: 10px;
+    background-color: rgb(212, 125, 26);
+    flex: 0 1 30%;
+    margin-bottom: 0.2em;
+}
+
+.box2-content {
+    padding: 10px;
+    background-color: rgb(23, 192, 51);
+    flex: 0 1 30%;
+    margin-bottom: 0.2em;
+}
+
+.box3-content {
+    padding: 10px;
+    background-color: rgb(212, 26, 165);
+    flex: 0 1 30%;
+    margin-bottom: 0.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: capitalize;
+}
+
+.line_grey {
+    border-bottom: 1px solid #4b515f;
+}
+
+.line_blue {
+    border-bottom: 1px solid #268fbe;
+}
+
+.blue {
+    background-color: #268fbe;
+}
+
+.grey {
+    background-color: #4d5a72;
+}
+
+.darkgrey {
+    background-color: #242a36;
+}
+
+.margin-bottom {
+    margin-bottom: 0.4em;
+}

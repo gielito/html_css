@@ -1,0 +1,97 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: lightgray;
+}
+
+.hero {
+  background-color: #6dccaa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+
+.social-shit {
+  background-color: blueviolet;
+}
+
+.banaan {
+  flex-grow: 1;
+}
+
+/* Start a Flex-container.... */
+.d-flex {
+  display: flex;
+}
+
+nav {
+  background-color: yellow;
+  /* margin-left: auto; */
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.two-columns > * {
+  flex: 1 1 50%;
+}
+
+.three-columns > * {
+  flex: 1 1 calc(100% / 3);
+}
+
+.four-columns > * {
+  flex: 1 1 25%;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.passie {
+  background-color: hotpink;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+a.button,
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 16px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  background: transparent;
+  border: 2px solid #333;
+  transition: all 0.2s ease-out;
+}
+
+a.button:hover,
+input[type="submit"]:hover {
+  color: #fff;
+  background: #f7c040;
+  border-color: #f7c040;
+}

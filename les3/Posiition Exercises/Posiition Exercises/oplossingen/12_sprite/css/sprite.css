@@ -1,0 +1,91 @@
+/*width: 117px en 162px
+height: 38px*/
+
+#navigation{
+	margin: 30px auto;
+	width: 981px;
+}
+
+.menuItem a{
+	display: block;
+	width: 117px;
+	height: 38px;
+	background-image: url(../images/apple_sprite.png);
+	float: left;
+}
+
+#menu1 a{
+	background-position: 0px 0px;
+}
+#menu2 a{
+	background-position: -117px 0px;
+}
+#menu3 a{
+	background-position: -234px 0px;
+}
+#menu4 a{
+	background-position: -351px 0px;
+}
+#menu5 a{
+	background-position: -468px 0px;
+}
+#menu6 a{
+	background-position: -585px 0px;
+}
+#menu7 a{
+	background-position: -702px 0px;
+}
+#menu8 a{
+	background-position: -864px 0px;
+}
+
+#menu1 a:hover{
+	background-position: 0px 38px;
+}
+#menu2 a:hover{
+	background-position: -117px 38px;
+}
+#menu3 a:hover{
+	background-position: -234px 38px;
+}
+#menu4 a:hover{
+	background-position: -351px 38px;
+}
+#menu5 a:hover{
+	background-position: -468px 38px;
+}
+#menu6 a:hover{
+	background-position: -585px 38px;
+}
+#menu7 a:hover{
+	background-position: -702px 38px;
+}
+#menu8 a:hover{
+	background-position: -864px 38px;
+}
+
+#menu1 a:active{
+	background-position: 0px 76px;
+}
+#menu2 a:active{
+	background-position: -117px 76px;
+}
+#menu3 a:active{
+	background-position: -234px 76px;
+}
+#menu4 a:active{
+	background-position: -351px 76px;
+}
+#menu5 a:active{
+	background-position: -468px 76px;
+}
+#menu6 a:active{
+	background-position: -585px 76px;
+}
+#menu7 a:active{
+	background-position: -702px 76px;
+}
+#menu8 a:active{
+	background-position: -864px 76px;
+}
+

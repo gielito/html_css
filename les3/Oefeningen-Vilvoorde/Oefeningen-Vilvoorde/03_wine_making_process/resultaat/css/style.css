@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.marginbottom {
+    margin-bottom: 8px;
+}
+
+nav {
+    text-align: right;
+    padding: 30px;
+    ;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #4a1a4d;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.title {
+    background-color: #B97EB6;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px;
+}
+
+.title h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5vw;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+main {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main h2 {
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.padding {
+    padding: 20px 120px;
+}
+
+#harvesting {
+    background-color: #9e4e9e;
+}
+
+#crushing {
+    background-color: #862d8f;
+}
+
+#fermentation {
+    background-color: #6d2979;
+}
+
+#clarification {
+    background-color: #66256e;
+}
+
+#aging {
+    background-color: #5b205e;
+}
+
+footer {
+    background-color: #4a1a4d;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}

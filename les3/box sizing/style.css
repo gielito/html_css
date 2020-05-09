@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 19, 134);
+}
+
+.container {
+    border: 2px solid red;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.left {
+    width: 400px;
+    float: left;
+}
+
+.right {
+    width: 400px;
+    float: right;
+}
+
+.left {
+    background-color: rgb(64, 204, 36);
+}
+
+.right {
+    background-color: hotpink;
+}

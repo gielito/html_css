@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	color: #666;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+#css{
+	width: 740px;
+	height: 270px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -135px;
+	margin-left: -370px;
+}
+
+#letter1{
+	border-top: 25px solid #333;
+	border-left: 25px solid #333;
+	border-bottom: 25px solid #333;
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+	padding: 10px;
+}
+
+#letter2{
+	border-top: 25px solid #333;
+	border-left: 25px solid #333;
+	border-bottom: 25px solid #333;
+	width: 180px;
+	height: 70px;
+	margin: 10px;
+	float: left;
+	padding: 10px;
+}
+
+#letter3{
+	border-top: 25px solid #333;
+	border-left: 25px solid #333;
+	border-bottom: 25px solid #333;
+	width: 180px;
+	height: 70px;
+	margin: 10px;
+	float: left;
+	padding: 10px;
+}
+
+#letter2deel2{
+	border-right: 25px solid #333;
+	border-bottom: 25px solid #333;
+	width: 180px;
+	height: 70px;
+	margin: -20px 10px 10px 10px;
+	float: left;
+	padding: 10px;
+	padding-top: 15px;
+}
+
+#letter3deel2{
+	border-right: 25px solid #333;
+	border-bottom: 25px solid #333;
+	width: 180px;
+	height: 70px;
+	margin: -20px 10px 10px 10px;
+	float: left;
+	padding: 10px;
+	padding-top: 15px;
+}

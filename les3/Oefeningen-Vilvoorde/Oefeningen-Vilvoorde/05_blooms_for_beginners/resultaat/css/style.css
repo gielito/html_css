@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6C665F;
+    font-family: 'Quicksand', sans-serif;
+    color: #CDBBA4;
+}
+
+@font-face {
+    font-family: ornament;
+    src: url(../fonts/Nymphette.ttf);
+}
+
+header {
+    background-image: url(../img/header.png);
+    padding-top: 180px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 50px;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #F7E0C2;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    padding: 20px 100px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.start p {
+    padding-bottom: 0;
+    font-size: 1.5rem;
+}
+
+a,
+a:active,
+a::after {
+    color: #CDBBA4;
+}
+
+.ornament {
+    font-family: ornament;
+    font-size: 15rem;
+    color: #958694;
+    text-align: center;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    padding-top: 80px;
+}
